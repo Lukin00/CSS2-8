@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 64px 158px;
+}
+.main_container{
+    margin: 0 auto;
+    background-color: #E8EEFF;
+    padding: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 64px;
+}
+
+
+
+.header_container{
+    max-width: 1024px;
+    width: 100%;
+    height: 244px;
+    text-align: center;
+}
+h1{
+    max-width: 864px;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 80px;
+    color: #181D27;
+    margin: 0 auto;
+}
+.analytics{
+    color: #05F;
+}
+.smarter{
+    color: #6941C6;
+    text-decoration: underline;
+}
+.subtitle{
+    max-width: 768px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #535862;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+
+.card_container{
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+}
+.card{
+    max-width: 449px;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+}
+.card_icon{
+    padding: 12px;
+    border: 1px solid #E9EAEB;
+    border-radius: 10px;
+    width: 48px;
+    height: 48px;
+}
+.head_text{
+    text-align: center;
+}
+.card_head{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #181D27;
+}
+.card_text{
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #535862;
+}
+
+
+
+
+.join_container{
+    max-width: 1216px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-color: #53389E;
+    margin-bottom: 564px;
+}
+.give_shot{
+    max-width: 736px;
+    width: 100%;
+    height: 314px;
+    padding: 64px;
+}
+.shot_head{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: white;
+}
+.shot_subtitle{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #E9D7FE;
+}
+.buttons{
+    margin-top: 48px;
+}
+.learn_more{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 12px 18px;
+    border-radius: 8px;
+    background-color: white;
+    color: #414651;
+}
+.get_started{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 12px 18px;
+    border-radius: 8px;
+    background-color: #7F56D9;
+    color: white;
+    border: 2px solid white;
+    margin-left: 12px;
+}
